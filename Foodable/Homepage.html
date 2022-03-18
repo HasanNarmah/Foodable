@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Homepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Homepage.js"></script>
+    <title>Foodable</title>
+</head>
+<body>
+
+  <!-- navigation bar -->
+<div class="navbar">
+  <a href="Homepage.html">
+    <img src="Img/foodablemain.jpg" alt="foodable" />
+  </a>
+  <ul>
+    <li><a href="Homepage.html">HOME</a></li>
+    <li><a href="#">OUR MISSION</a></li>
+    <li><a href="#">CONTACT US</a></li>
+    <li><a href="Login_Page.html">SIGN IN </a></li>
+    <li><a href="Registration.html">SIGN UP</a></li>
+  </ul>
+</div>
+
+
+
+<!-- <div class="buttons">
+  <button class="donatefood" value="Donate Food"> Donate Food</button>
+  <button class="recievefood" value="Recieve Food"> Receive Food</button>
+</div> -->
+
+<div class="catchphrase">
+  <h1> Building a future where there is no Hunger</h1>
+  <br>
+  <h3> Join use to make that future possible</h3>
+</div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Img/food4.jpg" alt="bags" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/food5.jpg" alt="handout" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/food3.jpg" alt="foodselection" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/food7.jpg" alt="foodselection" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+<div class="minilogo">
+  <img src="Img/foodable1mini.jpg" alt="Mlogo">
+
+</div>
+
+<div class="facts">
+  <h1>THE FACTS</h1>
+    <p>The UK produces an estimated 14 million tonnes of food waste each year, according to the European Commission. </p>
+    <p>8.4 million people in the UK are experiencing food poverty of some kind. It’s almost as many people as the entire population of London</p>
+    <p> Poor diet is linked to many serious illnesses, like type 2 diabetes, coronary heart disease and some types of cancer. So living with food insecurity has a much larger impact on health than just the immediate hunger and stress</p>
+    <p>The need for emergency food supplies is on the rise. UK non-profit, The Trussell Trust, sent out 1.6 million three-day emergency food packages between April 2018 and March 2019. It was an 18.8 per cent increase on the previous year.</p>
+    <p> UNICEF estimated in 2017, that 19 per cent of children under the age of 15 live with someone experiencing moderate of severe food insecurity</p>
+</div>
+
+<button type="button" class="maininfo">Why Us?</button>
+<div class="content">
+  <p>Our focus is on the deirty needs of people allowing users who donate to build a package that caters to certain dietry needs. Alowing others to find things  they are able to eat. <br>
+    For those who donate will be within a reward system to win vounchers for participating store! </p>
+</div>
+<button type="button" class="maininfo">Benefits</button>
+<div class="content">
+  <p>WE ALL WIN!!
+    We are able to reduce the amount of food that is wasted around the world and help get food to people who need it </p>
+</div>
+<button type="button" class="maininfo">Asking for help</button>
+<div class="content">
+  <p>Asking for help is sometimes hard for people to do, its a simple thing to do but people stuggle to find ways to do so. One of the main reasons for people not being able to eat is because they find it hard to ask for help, it may be that they don’t want to seen asking for help. With Foodable asking for help becomes easy as when using the site you are able to keep yourself anonymous from donators of the site. This with the ablilty collect user created packages to local foodbanks anonymously through a code systems. </p>
+</div>
+
+
+
+<script>
+  var coll = document.getElementsByClassName("maininfo");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script> 
+
+
+<div class="mapintro">
+  <h3>Want so see the closest foodbank to you? Check below!</h3>
+  </div>
+
+  <div id="googleMap" style="width:100%;height:400px;"></div>
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9CxBfbNXhUURjIngRLHJ-LAZ2fLSA4oU&callback=myMap"></script> -->
+
+<footer class="footer">
+       <p class="Rights">
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved to Foodable
+          </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html

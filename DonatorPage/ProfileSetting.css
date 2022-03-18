@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis';
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+}
+
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    cursor: pointer;
+  }
+
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a
+{
+    text-decoration: none;
+    color: #1d8787;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .buttons{
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 32px;
+    padding: right;
+  }
+
+
+  .sidemenu{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 85px;
+  }
+
+  .sidemenu ul li{
+    list-style: none;
+    display: inline-block; 
+    margin: 0 15px;
+  }
+  
+  .sidemenu ul li a
+{
+    text-decoration: none;
+    color: #1d8787;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  .sidemenu li{
+      padding: 13px 0px;
+  }
+
+  .profilecontainer{
+      background-color: white;
+      border-radius: 30px;
+      margin-left: 70px;
+      margin-right: 70px;
+      margin-top: 10px;
+      /* padding-bottom: 1000px; */
+ }
+
+.profilephoto{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.username{
+    padding-left: 100px;
+    padding-top: 35px;
+    font-size: 60px;
+}
+
+.donations{
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.donation-1{
+    margin-bottom: 20px;
+}
+
+				                
+body{margin-top:20px;}
+.avatar{
+width:250px;
+height:200px;
+}				              
+
+.editprofile{
+    background-color: bisque;
+    border-radius: 30px;
+    padding-bottom: 1000px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mtitle{
+text-align: center;
+font-size: xx-large;
+}
+
+.cpp{
+    text-align: center;
+    font-size: larger;
+}
+
+.imagebtn{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.pititle{
+    margin-top: 10px;
+    font-size: xx-large;
+}
+
+.fnlabel{
+    margin-top: 2000px
+}
+
+.sub-btn{
+    margin-top: 25px;
+}

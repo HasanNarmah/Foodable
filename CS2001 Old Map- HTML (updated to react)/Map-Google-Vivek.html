@@ -1,0 +1,95 @@
+<head>
+  <title>Cs2001- Vivek</title>
+  <h2>Local Foodbanks</h2>
+  <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <input id="input" style="height :50px ; width:893px">
+
+
+  <div id="map"></div>
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ-mrHiHc4Oj7EnKZdjp44PdRXZ_RmRew&libraries=places&callback=initMap"></script>
+</body>
+
+</html>
+
+
+
+<div id="map"></div>
+
+
+
+</style>
+
+<script type="text/javascript">
+
+
+  vivek = navigator.geolocation;
+
+  vivek.getCurrentPosition(Map1, Map2);
+
+  function Map1(position) {
+    var myLat = position.coords.latitude;
+    var myLong = position.coords.longitude;
+    var coords = new google.maps.LatLng(myLat, myLong);
+
+    var mapOptions = {
+
+      zoom: 10,
+      center: coords,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var marker = new google.maps.Marker({ map: map, position: coords });
+
+    autocomplete = new google.maps.places.Autocomplete(document.getElementById("input"),
+      {
+        componentRestrictions: { 'country': ['uk'] },
+        fields: ['geometry', 'name'],
+        types: ['establishment']
+      });
+
+    autocomplete.addListener("place_changed", () => {
+      const place = autocomplete.getPlace();
+      new google.maps.Marker({
+        position: place.geometry.location,
+        title: place.name,
+        map: map
+      })
+    });
+  }
+
+  function Map2() { }
+
+</script>
+
+<script>
+
+
+  autocomplete = new google.maps.places.Autocomplete(document.getElementById("input"),
+    {
+      componentRestrictions: { 'country': ['uk'] },
+      fields: ['geometry', 'name'],
+      types: ['establishment']
+    });
+
+  autocomplete.addListener("place_changed", () => {
+    const place = autocomplete.getPlace();
+    new google.maps.Marker({
+      position: place.geometry.location,
+      title: place.name,
+      map: map
+    })
+
+
+      < script >
+    
+</body >
+</html >

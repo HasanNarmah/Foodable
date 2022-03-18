@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Createdonation.css" href="Createdonation.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createdonation</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="Homepage.html">
+          <img src="Img/foodablemain.jpg" alt="foodable" />
+        </a>
+        <ul>
+          <li><a href="Homepage.html">HOME</a></li>
+          <li><a href="#">OUR MISSION</a></li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><a href="Login_Page.html">SIGN IN </a></li>
+          <li><a href="Registration.html">SIGN UP</a></li>
+        </ul>
+      </div>
+
+      
+      
+
+        <div class="profilecontainer">
+            <div class="mini-nav">
+                <h1 class="Title">Donate</h1>
+                <div class="sidebar">
+                    <div class="sidemenu">
+                        <div class="sidebutton">
+                            <ul>
+                                <li><a href="">Porfile</a></li>
+                                <li><a href="#">Rewards</a></li>
+                                <li><a href="">Settings </a></li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cdbackground">
+
+                <div class="itemform">
+                  <h1 class="titleil">Create Donation</h1>
+
+                  <form action="">
+                    <h2 class="itemname">Item name</h2>
+                    <input type="text" name="Item Name" id="txt" class="nameinput" required>
+                   
+                    <h2 class="itemquantity">Item quantity</h2>
+                    <input type="number" name="Item Quantity" id="number" class="itemq" min="1" max="100" required>
+                   
+                    <h2 class="dtitle">Select dietary preference</h2>
+                    <input type="radio" name="Dietary Preference" id="dPref" required>
+                    <label for="Dietary"> Halal</label><br>
+                    <input type="radio" name="Dietary Preference" id="dPref" required>
+                    <label for="Dietary"> Non-Halal</label><br>
+                    <input type="radio" name="Dietary Preference" id="dPref" required>
+                    <label for="Dietary"> Vegan</label><br>
+                    <input type="radio" name="Dietary Preference" id="dPref" required>
+                    <label for="Dietary"> Vegetarian</label><br>
+                   
+                    <h2 class="extitle">Expiry date</h2>
+                    <input type="date" name="bbd" id="Expiry" required>
+                   
+                    <h2 class="imagetitle">Upload  image</h2>
+                    <input type="file" id="FoodImage" name="filename" accept="image/*">
+                    <br>
+                    <button type="submit" class="sub-btn">Add item</button>
+                  </form>
+               
+                  <h2 class="ptitle">Item added to package</h2>
+                  <div class="itemlist">
+                    <ul class="ilist">
+                      <li>test <span>x</span></li>
+                      <li>test <span>x</span></li>
+                      <li>test <span>x</span></li>
+                    </ul>
+                    <button type="submit" class="cp-btn">Create package</button>
+                    
+                </div>
+              </div>
+            </div>
+
+                <script src="Createdonation.js"></script>
+                </body>
+
+
+
+
+
+            </div>
+        </div>

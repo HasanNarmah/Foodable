@@ -18,23 +18,23 @@ Use this template to inform your clients about:
 
 ### Group Members
 
-Name | Student ID | Feature Contribution |
+Name | Feature Contribution |
 
-Arukhan Kenes | 1940930 | Back-End / Front-End / Database API - Donation of Food
+Arukhan Kenes |  Back-End / Front-End / Database API - Donation of Food
 
-Ben Danaka | 2007312 | Back-End / Front-End / Database API - Verification System |
+Ben Danaka |  Back-End / Front-End / Database API - Verification System |
 
-Vivek Majithia| 2011409 | Back-End / Front-End / Database API - Location of Food Banks |
+Vivek Majithia|  Back-End / Front-End / Database API - Location of Food Banks |
 
-Fahad Shahid| 2043669 | Back-End / Front-End / Database API - Filtering System for Donated Food |
+Fahad Shahid|  Back-End / Front-End / Database API - Filtering System for Donated Food |
 
-Joshua Matthews| 2018022 | Back-End / Front-End / Database API - Mobile Responsive Website |
+Joshua Matthews|  Back-End / Front-End / Database API - Mobile Responsive Website |
 
-Hasan Narmah| 1923193 | Back-End / Front-End / Database API - Registration |
+Hasan Narmah|  Back-End / Front-End / Database API - Registration |
 
-Damian Mielech| 2017435 | Back-End / Front-End / Database API - Reward System |
+Damian Mielech|  Back-End / Front-End / Database API - Reward System |
 
-Angel Ignatov | 2125997 | Back-End / Front-End / Database API - Contact Us and Welcome Pages |
+Angel Ignatov |  Back-End / Front-End / Database API - Contact Us and Welcome Pages |
 
 ---
 

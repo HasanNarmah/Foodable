@@ -1,18 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6108227&assignment_repo_type=AssignmentRepo)
-# CS2001: Group Project 2021/22
-
-This is a template of the README markdown (extension .md)  file. For tips on how to edit the markdown click [here](https://guides.github.com/features/mastering-markdown/)!
-
-
-Use this template to inform your clients about:
-
-1. What is this web application? - This web application is going to cover SDG 2 and 3, where we are going to be helping those who need food and those who want to donate by creating a webpage which will allow users to donate long-life products via their local foodbanks and the receiver will have the choice to tailor it to their needs such as (Vegan, Halal...etc). Our web application is different since most of the food donation websites do not currently have the option for you to find the local foodbanks(this is something which makes it easier for the user). 
-2. What are its capabilities i.e. features? Email Integration, Rewards system for donator, Login System, Verification system, List of Local food banks to donate food, Filtering Care Packages according to receiver’s needs
-3. How to install the code (including any dependencies)?
-4. How to run the web application? The web application will be avaiable to access via website.
-
----
-
 ## Group number : 
 16
 
